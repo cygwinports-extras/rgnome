@@ -1,0 +1,6 @@
+category: Gnome R
+requires: python python-gconf2 python-gnome2 python-gnomeprint2 python-gnomevfs2 python-gobject2 python-gtk2 python-gtksourceview python-rpy python-vte
+sdesc: "GNOME frontend for GNU R language"
+ldesc: "RGnome is a GNOME frontend for GNU R, which is a widely used 
+language for statistical computing. It features a fully working R 
+console, an editor with syntax highlighting, and a help browser."

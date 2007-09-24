@@ -1,0 +1,141 @@
+rgnome
+------------------------------------------
+RGnome is a GNOME frontend for GNU R, which is a widely used language 
+for statistical computing. It features a fully working R console, an 
+editor with syntax highlighting, and a help browser.
+
+Runtime requirements:
+  python-2.5.1-3
+  python-gconf2-2.18.2-1
+  python-gnome2-2.18.2-1
+  python-gnomeprint2-2.18.0-1
+  python-gnomevfs2-2.18.2-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.6-1
+  python-gtksourceview-2.18.0-1
+  python-rpy-1.0_RC3-1
+  python-vte-0.16.9-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.3.5-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://rgnome.boltzmann-konstante.de/
+
+Canonical download:
+  http://rgnome.boltzmann-konstante.de/
+
+-------------------------------------------
+
+Build instructions:
+  unpack rgnome-0.1.9_alpha-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./rgnome-0.1.9_alpha-X.cygport all
+
+This will create:
+  /usr/src/rgnome-0.1.9_alpha-X-src.tar.bz2
+  /usr/src/rgnome-0.1.9_alpha-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/rgnome.schemas
+  /etc/postinstall/rgnome.sh
+  /etc/preremove/rgnome.sh
+  /usr/bin/rgnome
+  /usr/share/applications/rgnome.desktop
+  /usr/share/doc/Cygwin/rgnome-0.1.9_alpha.README
+  /usr/share/doc/rgnome-0.1.9_alpha/AUTHORS
+  /usr/share/doc/rgnome-0.1.9_alpha/COPYING
+  /usr/share/doc/rgnome-0.1.9_alpha/ChangeLog
+  /usr/share/doc/rgnome-0.1.9_alpha/TODO
+  /usr/share/locale/de_DE/LC_MESSAGES/rgnome.mo
+  /usr/share/man/man1/rgnome.1.gz
+  /usr/share/pixmaps/rgnome.png
+  /usr/share/rgnome/librgnome/__init__.py
+  /usr/share/rgnome/librgnome/__init__.pyc
+  /usr/share/rgnome/librgnome/__init__.pyo
+  /usr/share/rgnome/librgnome/cli.py
+  /usr/share/rgnome/librgnome/cli.pyc
+  /usr/share/rgnome/librgnome/cli.pyo
+  /usr/share/rgnome/librgnome/config.py
+  /usr/share/rgnome/librgnome/config.pyc
+  /usr/share/rgnome/librgnome/config.pyo
+  /usr/share/rgnome/librgnome/ui/__init__.py
+  /usr/share/rgnome/librgnome/ui/__init__.pyc
+  /usr/share/rgnome/librgnome/ui/__init__.pyo
+  /usr/share/rgnome/librgnome/ui/about.py
+  /usr/share/rgnome/librgnome/ui/about.pyc
+  /usr/share/rgnome/librgnome/ui/about.pyo
+  /usr/share/rgnome/librgnome/ui/editor.py
+  /usr/share/rgnome/librgnome/ui/editor.pyc
+  /usr/share/rgnome/librgnome/ui/editor.pyo
+  /usr/share/rgnome/librgnome/ui/helpbrowser.py
+  /usr/share/rgnome/librgnome/ui/helpbrowser.pyc
+  /usr/share/rgnome/librgnome/ui/helpbrowser.pyo
+  /usr/share/rgnome/librgnome/ui/mainwindow.py
+  /usr/share/rgnome/librgnome/ui/mainwindow.pyc
+  /usr/share/rgnome/librgnome/ui/mainwindow.pyo
+  /usr/share/rgnome/librgnome/ui/objectbrowser.py
+  /usr/share/rgnome/librgnome/ui/objectbrowser.pyc
+  /usr/share/rgnome/librgnome/ui/objectbrowser.pyo
+  /usr/share/rgnome/librgnome/ui/objecttips.py
+  /usr/share/rgnome/librgnome/ui/objecttips.pyc
+  /usr/share/rgnome/librgnome/ui/objecttips.pyo
+  /usr/share/rgnome/librgnome/ui/pkgmanager.py
+  /usr/share/rgnome/librgnome/ui/pkgmanager.pyc
+  /usr/share/rgnome/librgnome/ui/pkgmanager.pyo
+  /usr/share/rgnome/librgnome/ui/preferences.py
+  /usr/share/rgnome/librgnome/ui/preferences.pyc
+  /usr/share/rgnome/librgnome/ui/preferences.pyo
+  /usr/share/rgnome/librgnome/ui/printing.py
+  /usr/share/rgnome/librgnome/ui/printing.pyc
+  /usr/share/rgnome/librgnome/ui/printing.pyo
+  /usr/share/rgnome/librgnome/ui/rconsole.py
+  /usr/share/rgnome/librgnome/ui/rconsole.pyc
+  /usr/share/rgnome/librgnome/ui/rconsole.pyo
+  /usr/share/rgnome/librgnome/ui/replacebar.py
+  /usr/share/rgnome/librgnome/ui/replacebar.pyc
+  /usr/share/rgnome/librgnome/ui/replacebar.pyo
+  /usr/share/rgnome/librgnome/ui/rpyconsole.py
+  /usr/share/rgnome/librgnome/ui/rpyconsole.pyc
+  /usr/share/rgnome/librgnome/ui/rpyconsole.pyo
+  /usr/share/rgnome/librgnome/ui/scriptitem.py
+  /usr/share/rgnome/librgnome/ui/scriptitem.pyc
+  /usr/share/rgnome/librgnome/ui/scriptitem.pyo
+  /usr/share/rgnome/librgnome/ui/searchbar.py
+  /usr/share/rgnome/librgnome/ui/searchbar.pyc
+  /usr/share/rgnome/librgnome/ui/searchbar.pyo
+  /usr/share/rgnome/librgnome/ui/statusbar.py
+  /usr/share/rgnome/librgnome/ui/statusbar.pyc
+  /usr/share/rgnome/librgnome/ui/statusbar.pyo
+  /usr/share/rgnome/plugins/empty.glade
+  /usr/share/rgnome/plugins/empty.py
+  /usr/share/rgnome/plugins/empty.pyc
+  /usr/share/rgnome/plugins/empty.pyo
+  /usr/share/rgnome/po/de_DE.po
+  /usr/share/rgnome/resource/find.glade
+  /usr/share/rgnome/resource/findreplace.glade
+  /usr/share/rgnome/resource/pkgbrowser.glade
+  /usr/share/rgnome/resource/preferences.glade
+  /usr/share/rgnome/resource/rgnome.glade
+  /usr/share/rgnome/resource/rgnome.png
+  /usr/share/rgnome/rgnome.py
+  /usr/share/rgnome/rgnome.pyc
+  /usr/share/rgnome/rgnome.pyo
+
+------------------
+
+Port Notes:
+
+----- version 0.1.9_alpha-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
